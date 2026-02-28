@@ -1,3 +1,14 @@
 enabled: true
 folders:
   - pages
+webhook: /git-sync/webhook
+webhook_enabled: true
+webhook_secret: ''
+git:
+  bin: git
+user: burningdrop
+password: ''
+repository: https://github.com/burningdrop/food4good.git
+branch: main
+remote: origin
+target: origin/main

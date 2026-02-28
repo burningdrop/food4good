@@ -1,0 +1,32 @@
+enabled: true
+folders:
+  - pages
+sync:
+  direction: both
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+SyncNotice: null
+local_repository: null
+repository: 'https://github.com/burningdrop/food4good.git'
+no_user: '0'
+user: burningdrop
+password: gitsync-def502005be9d49a047818ae140b0ee68ff9c9c8d062cb0d174483f0c3cf52abdba61f4c1b26ee2b13dd50a185488d5baffd977f433f1fa7c414a0d2b5290a5551ffb435b45cfac050cc1cb0556c9caf38ac45579aab252e5b0fa14d983a77b83b5d2af11a9ea2ce6e2618715228b2e0e6c4a1ed97510ddf50449378
+webhook: food4good2025
+webhook_enabled: '0'
+webhook_secret: e899752e282e0f672cb49857768e8db933f7269462a8be2f
+branch: main
+remote:
+  name: origin
+  branch: main
+git:
+  author: gituser
+  message: '(Grav GitSync) Automatic Commit'
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+  ignore: null
+  private_key: null
+logging: false

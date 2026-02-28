@@ -1,0 +1,13 @@
+1772316372
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:8:"projekte";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:1:{s:5:"title";s:8:"Projekte";}s:11:"frontmatter";s:15:"title: Projekte";s:8:"markdown";s:596:"# Unsere Projekte
+
+Bei Food 4 Good glauben wir, dass gutes Essen mehr bewirken kann. Mit jedem Kauf unterstützt du konkrete Projekte, die Menschen und Gemeinschaften stärken.
+
+## 🤝 Soziale Integration
+Wir fördern die Integration von benachteiligten Gruppen durch gemeinsame Kochprojekte und Ernährungsbildung.
+
+## 🌱 Nachhaltige Produktion
+Unsere Produkte stammen aus regionaler, umweltschonender Herstellung – kurze Wege, maximale Qualität.
+
+## 📚 Ernährungsbildung
+Wir führen Workshops und Programme durch, um das Bewusstsein für gesunde und nachhaltige Ernährung zu fördern.";}s:7:"storage";a:6:{s:3:"key";s:8:"projekte";s:11:"storage_key";s:11:"03.projekte";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1772315772;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1772315772;}}s:8:"checksum";s:32:"02a863f72b104d98035fbcfb7854b80d";}}

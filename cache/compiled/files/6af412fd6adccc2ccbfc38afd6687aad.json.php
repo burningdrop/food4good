@@ -2,35 +2,37 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/var/www/food4good/user/data/flex/indexes/pages.json',
-    'modified' => 1772314700,
-    'size' => 635,
+    'modified' => 1772315812,
+    'size' => 1077,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1772314700,
-        'count' => 3,
+        'timestamp' => 1772315812,
+        'count' => 5,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1762875110,
+                'storage_timestamp' => 1772315812,
                 'children' => [
-                    '01.home' => 1762875110,
-                    '02.typography' => 1762875110
+                    '01.home' => 1772315729,
+                    '02.typography' => 1762875110,
+                    '03.projekte' => 1772315772,
+                    '04.webshop' => 1772315812
                 ],
-                'checksum' => 'c5c1f978a4dd86174c57e4bf5676b3d2'
+                'checksum' => '3e07f15e162167b72040d5c6321b4465'
             ],
             '01.home' => [
                 'key' => 'home',
                 'storage_key' => '01.home',
                 'template' => 'default',
-                'storage_timestamp' => 1762875110,
+                'storage_timestamp' => 1772315729,
                 'markdown' => [
                     '' => [
-                        'default' => 1762875110
+                        'default' => 1772315729
                     ]
                 ],
-                'checksum' => '557c7f50f287e206593281f3f52a56bd'
+                'checksum' => '8d510c24dd4fca579920dcde2c196ff5'
             ],
             '02.typography' => [
                 'key' => 'typography',
@@ -43,6 +45,30 @@ return [
                     ]
                 ],
                 'checksum' => 'a3429beed591f9304014acfeac07a8e1'
+            ],
+            '03.projekte' => [
+                'key' => 'projekte',
+                'storage_key' => '03.projekte',
+                'template' => 'default',
+                'storage_timestamp' => 1772315772,
+                'markdown' => [
+                    '' => [
+                        'default' => 1772315772
+                    ]
+                ],
+                'checksum' => '02a863f72b104d98035fbcfb7854b80d'
+            ],
+            '04.webshop' => [
+                'key' => 'webshop',
+                'storage_key' => '04.webshop',
+                'template' => 'default',
+                'storage_timestamp' => 1772315812,
+                'markdown' => [
+                    '' => [
+                        'default' => 1772315812
+                    ]
+                ],
+                'checksum' => '176b6c41a319de45832fca02e02f041a'
             ]
         ]
     ]

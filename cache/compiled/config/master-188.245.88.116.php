@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1772314768,
-    'checksum' => 'e6a671073d8bfcebe799bd52254eb63a',
+    'timestamp' => 1772316401,
+    'checksum' => '56b488c79921d755b77952007e255008',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1772314700
+            ],
+            'plugins/git-sync' => [
+                'file' => 'user/config/plugins/git-sync.yaml',
+                'modified' => 1772315531
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -87,7 +91,7 @@ return [
             ],
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/git-sync.yaml',
-                'modified' => 1766982472
+                'modified' => 1772316389
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -344,7 +348,40 @@ return [
                 'enabled' => true,
                 'folders' => [
                     0 => 'pages'
-                ]
+                ],
+                'webhook' => 'food4good2025',
+                'webhook_enabled' => '0',
+                'webhook_secret' => 'e899752e282e0f672cb49857768e8db933f7269462a8be2f',
+                'git' => [
+                    'bin' => 'git',
+                    'author' => 'gituser',
+                    'message' => '(Grav GitSync) Automatic Commit',
+                    'name' => 'GitSync',
+                    'email' => 'git-sync@trilby.media',
+                    'ignore' => NULL,
+                    'private_key' => NULL
+                ],
+                'user' => 'burningdrop',
+                'password' => 'gitsync-def502005be9d49a047818ae140b0ee68ff9c9c8d062cb0d174483f0c3cf52abdba61f4c1b26ee2b13dd50a185488d5baffd977f433f1fa7c414a0d2b5290a5551ffb435b45cfac050cc1cb0556c9caf38ac45579aab252e5b0fa14d983a77b83b5d2af11a9ea2ce6e2618715228b2e0e6c4a1ed97510ddf50449378',
+                'repository' => 'https://github.com/burningdrop/food4good.git',
+                'branch' => 'main',
+                'remote' => [
+                    'name' => 'origin',
+                    'branch' => 'main'
+                ],
+                'target' => 'origin/main',
+                'sync' => [
+                    'direction' => 'both',
+                    'on_save' => true,
+                    'on_delete' => true,
+                    'on_media' => true,
+                    'cron_enable' => false,
+                    'cron_at' => '0 12,23 * * *'
+                ],
+                'SyncNotice' => NULL,
+                'local_repository' => NULL,
+                'no_user' => '0',
+                'logging' => false
             ],
             'error' => [
                 'enabled' => true,
