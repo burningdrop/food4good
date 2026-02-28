@@ -27,31 +27,12 @@ class __TwigTemplate_8131625c7bcb700c0a5e83990310ad91e6d62f3a4d81f957e007d034077
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        $context["logo"] = $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, ((($context["mobile"] ?? null)) ? ("custom_logo_mobile") : ("custom_logo")));
-        // line 2
         echo "<a href=\"";
         echo twig_escape_filter($this->env, ($context["home_url"] ?? null), "html", null, true);
-        echo "\" class=\"navbar-brand mr-10\">
+        echo "\" class=\"navbar-brand mr-10\" style=\"font-size: 1.4rem; font-weight: 700; color: #2d6a4f; text-decoration: none; letter-spacing: -0.02em;\">
+  Food 4 Good
+</a>
 ";
-        // line 3
-        if (($context["logo"] ?? null)) {
-            // line 4
-            echo "  ";
-            $context["logo_file"] = $this->getAttribute(twig_first($this->env, ($context["logo"] ?? null)), "name", []);
-            // line 5
-            echo "  <img src=\"";
-            echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc(("theme://images/logo/" . ($context["logo_file"] ?? null))), "html", null, true);
-            echo "\" alt=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute(($context["site"] ?? null), "title", []), "html", null, true);
-            echo "\" />
-";
-        } else {
-            // line 7
-            echo "  ";
-            $this->loadTemplate("@images/grav-logo.svg", "partials/logo.html.twig", 7)->display($context);
-        }
-        // line 9
-        echo "</a>";
     }
 
     public function getTemplateName()
@@ -66,7 +47,7 @@ class __TwigTemplate_8131625c7bcb700c0a5e83990310ad91e6d62f3a4d81f957e007d034077
 
     public function getDebugInfo()
     {
-        return array (  54 => 9,  50 => 7,  42 => 5,  39 => 4,  37 => 3,  32 => 2,  30 => 1,);
+        return array (  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -79,14 +60,9 @@ class __TwigTemplate_8131625c7bcb700c0a5e83990310ad91e6d62f3a4d81f957e007d034077
 
     public function getSourceContext()
     {
-        return new Source("{% set logo = theme_var(mobile ? 'custom_logo_mobile' : 'custom_logo') %}
-<a href=\"{{ home_url }}\" class=\"navbar-brand mr-10\">
-{% if logo %}
-  {% set logo_file = (logo|first).name %}
-  <img src=\"{{ url('theme://images/logo/' ~ logo_file)  }}\" alt=\"{{ site.title }}\" />
-{% else %}
-  {% include('@images/grav-logo.svg') %}
-{% endif %}
-</a>", "partials/logo.html.twig", "/var/www/food4good/user/themes/quark/templates/partials/logo.html.twig");
+        return new Source("<a href=\"{{ home_url }}\" class=\"navbar-brand mr-10\" style=\"font-size: 1.4rem; font-weight: 700; color: #2d6a4f; text-decoration: none; letter-spacing: -0.02em;\">
+  Food 4 Good
+</a>
+", "partials/logo.html.twig", "/var/www/food4good/user/themes/quark/templates/partials/logo.html.twig");
     }
 }
