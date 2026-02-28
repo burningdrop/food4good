@@ -1,0 +1,49 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
+    'filename' => '/var/www/food4good/user/data/flex/indexes/pages.json',
+    'modified' => 1772314700,
+    'size' => 635,
+    'data' => [
+        'version' => '1.5',
+        'timestamp' => 1772314700,
+        'count' => 3,
+        'index' => [
+            '' => [
+                'key' => '',
+                'storage_key' => '',
+                'template' => NULL,
+                'storage_timestamp' => 1762875110,
+                'children' => [
+                    '01.home' => 1762875110,
+                    '02.typography' => 1762875110
+                ],
+                'checksum' => 'c5c1f978a4dd86174c57e4bf5676b3d2'
+            ],
+            '01.home' => [
+                'key' => 'home',
+                'storage_key' => '01.home',
+                'template' => 'default',
+                'storage_timestamp' => 1762875110,
+                'markdown' => [
+                    '' => [
+                        'default' => 1762875110
+                    ]
+                ],
+                'checksum' => '557c7f50f287e206593281f3f52a56bd'
+            ],
+            '02.typography' => [
+                'key' => 'typography',
+                'storage_key' => '02.typography',
+                'template' => 'default',
+                'storage_timestamp' => 1762875110,
+                'markdown' => [
+                    '' => [
+                        'default' => 1762875110
+                    ]
+                ],
+                'checksum' => 'a3429beed591f9304014acfeac07a8e1'
+            ]
+        ]
+    ]
+];
